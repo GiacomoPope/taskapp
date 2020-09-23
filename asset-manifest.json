@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/taskapp/static/css/main.4875af85.chunk.css",
-    "main.js": "/taskapp/static/js/main.f1e7f7df.chunk.js",
-    "main.js.map": "/taskapp/static/js/main.f1e7f7df.chunk.js.map",
+    "main.css": "/taskapp/static/css/main.3793b7f4.chunk.css",
+    "main.js": "/taskapp/static/js/main.4b1f1381.chunk.js",
+    "main.js.map": "/taskapp/static/js/main.4b1f1381.chunk.js.map",
     "runtime-main.js": "/taskapp/static/js/runtime-main.402237ca.js",
     "runtime-main.js.map": "/taskapp/static/js/runtime-main.402237ca.js.map",
     "static/js/2.875b6d91.chunk.js": "/taskapp/static/js/2.875b6d91.chunk.js",
     "static/js/2.875b6d91.chunk.js.map": "/taskapp/static/js/2.875b6d91.chunk.js.map",
     "index.html": "/taskapp/index.html",
-    "precache-manifest.a2597f7d7902fbd22ae08e33a46adda4.js": "/taskapp/precache-manifest.a2597f7d7902fbd22ae08e33a46adda4.js",
+    "precache-manifest.ca06b0c537e0c0e81f4818cd57df5b5f.js": "/taskapp/precache-manifest.ca06b0c537e0c0e81f4818cd57df5b5f.js",
     "service-worker.js": "/taskapp/service-worker.js",
-    "static/css/main.4875af85.chunk.css.map": "/taskapp/static/css/main.4875af85.chunk.css.map",
+    "static/css/main.3793b7f4.chunk.css.map": "/taskapp/static/css/main.3793b7f4.chunk.css.map",
     "static/js/2.875b6d91.chunk.js.LICENSE.txt": "/taskapp/static/js/2.875b6d91.chunk.js.LICENSE.txt",
     "static/media/done-1.png": "/taskapp/static/media/done-1.f9ee2b9a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.402237ca.js",
     "static/js/2.875b6d91.chunk.js",
-    "static/css/main.4875af85.chunk.css",
-    "static/js/main.f1e7f7df.chunk.js"
+    "static/css/main.3793b7f4.chunk.css",
+    "static/js/main.4b1f1381.chunk.js"
   ]
 }
