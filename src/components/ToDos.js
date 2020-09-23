@@ -19,7 +19,7 @@ class ToDos extends Component {
         
         return(
             <div className="todoList">
-            <h3 style={this.getHeader(favTodoItems)}>Urgent Tasks</h3>
+            <h3 style={this.getHeader(favTodoItems)}>Priority Tasks</h3>
             {favTodoItems.map((todoItem) => (
                 <ToDoItem 
                     key={todoItem.id} 

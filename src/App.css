@@ -41,13 +41,13 @@ footer{
     margin: 3em auto;
 }
 
-.appWrapper form{
+.appWrapper .formTextInput{
     display: flex;
     justify-content: space-between;
     margin: 0 0.1em;
 }
 
-.appWrapper form input[type="text"]{
+.appWrapper .formTextInput input[type="text"]{
     flex: 10;
     padding: 10px 0px;
     background-color: #f9fbfd;
@@ -58,9 +58,14 @@ footer{
     transition: border 0.25s ease;
 }
 
-.appWrapper form input[type="text"]:focus{
+.appWrapper .formTextInput input[type="text"]:focus{
     outline: none;
     border-bottom: 1px #6949fb solid;
+}
+
+.priorityCheckbox{
+    padding: 0.7em 0;
+    font-size: 0.7em;
 }
 
 .submitBtn{
@@ -132,6 +137,6 @@ input[type="checkbox"]{
 
     .appWrapper{
         padding: 0 1em;
-        margin: 2em 0;
+        margin: 2em auto;
     }
   }

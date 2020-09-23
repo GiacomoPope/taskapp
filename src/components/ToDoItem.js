@@ -26,9 +26,8 @@ export class ToDoItem extends Component {
                     <input 
                         type="checkbox"
                         checked={this.props.todoItem.completed}
-                        onChange={this.props.toggleComplete.bind(this, id)}
+                        onChange={this.props.toggleComplete.bind(this,id)}
                     /> 
-                    {' '}
                     {title}
                 </label>
                 </p>

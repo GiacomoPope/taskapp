@@ -41,12 +41,12 @@ class App extends Component {
     this.setState({todoData : newToDoData})
   }
 
-  addTodo = (title) => {
+  addTodo = (title, fav) => {
     const newTodo = {
       id: uuidv4(),
       title: title,
       completed: false,
-      fav : false,
+      fav : fav,
     }
     const newToDoData = [newTodo, ...this.state.todoData];
     this.setState({todoData : newToDoData})
