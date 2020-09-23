@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import ToDoItem from './ToDoItem.js'
 class ToDos extends Component {
 
+    static defaultProps = { // <-- DEFAULT PROPS
+        todoItems: []       // undefined gets converted to array,render won't trigger error
+    }
+
     getHeader = (dataSet) =>{
         return{
             display: dataSet.length > 0 ? "block" : "none"

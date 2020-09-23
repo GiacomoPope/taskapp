@@ -18,7 +18,9 @@ class App extends Component {
 
   componentDidMount() {
     const savedData = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
-    this.setState({todoData : savedData})
+    if(savedData){
+      this.setState({todoData : savedData})
+    }
   }
 
   componentDidUpdate() {

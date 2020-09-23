@@ -129,4 +129,9 @@ input[type="checkbox"]{
     body {
       background-color: #f9fbfd;
     }
+
+    .appWrapper{
+        padding: 0 1em;
+        margin: 2em 0;
+    }
   }
